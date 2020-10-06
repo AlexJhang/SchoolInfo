@@ -1,0 +1,223 @@
+
+body{
+    padding: 0px;
+    font-family:標楷體, cursive, fantasy;
+}
+
+#header_div{
+    display: block;
+    background-color: silver;
+    padding: 20px;
+    text-align: center;
+    height: 10%;
+    min-height: 70px;
+    min-width: 1350px;
+
+}
+#footer_div{
+    background-color: silver;
+    padding: 20px;
+    text-align: center;
+    height: 10%;
+    min-height: 70px;
+    min-width: 1350px;
+    width: 100%;
+    float: left;
+}
+#middle_section_div{
+    width: 100%;
+    min-width: 1350px;
+    height: 800px;
+    float: left;
+    overflow: scroll;
+}
+#header_div h1{
+    margin: 0;
+}
+/*個資欄（左側）*/
+#ind_div{
+    float: left;
+    background-color: cornflowerblue;
+    padding: 20px;
+    width: 20%;
+    height: 800px;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+#ind_pic{
+    border-radius: 10px;
+}
+.ind_t_p{
+    color: rgb(178, 185, 164);
+    padding: 10px;
+    width: 70px;
+}
+.ind_t_v{
+}
+
+.ind_up_h{
+    visibility:hidden;
+}
+
+.ind_up_v{
+    visibility:visible;
+}
+
+.ind_bu{
+    background:rgb(77, 171, 248);
+
+}
+
+/*------------------------------------*/
+
+/*
+
+    功能區
+
+*/
+#func_div{
+    width: 80%;
+    min-width: 800px;
+    float: left;
+    display: inline-block;
+
+}
+#func_div h2{
+    margin: 0px;
+}
+
+
+
+#func_div_u{
+    height: 400px;
+    overflow: scroll;
+}
+#func_div_l{
+    border-top:5px black solid;
+    height: 400px;
+    overflow: scroll;
+}
+/*作業區（左上）*/
+#hw_div{
+    float: left;
+    width: 70%;
+    height: 100%;
+    min-height: 300;
+    min-width: 400;
+    
+    border-right:5px black solid;
+    
+}
+#hw_header_div{
+    background-color:rgb(226, 125, 78);
+    text-align: center;
+    margin: 0px;
+    
+}
+#hw_t_div{
+    height: 350px;
+    overflow: scroll;
+}
+#hw_checkBox1_l{
+    font-size: 10px;
+}
+#hw_div_table1{
+    
+}
+.hw_div_table1_tr1_th{
+    font-size: 20px
+}
+.hw_div_table1_th{
+}
+
+/*課程區（右上）*/
+#co_div{
+    float:right;
+    width: 30%;
+    overflow: scroll;
+}
+#co_header_div{
+    background-color:rgb(226, 125, 78);
+    text-align: center;
+    margin: 0px;
+}
+#co_t_div{
+    overflow-y:auto;
+}
+/*留言觀看區（左下）*/
+#maed_div{
+    float: left;
+    width: 60%;
+    height: 100%;
+    min-height: 300;
+    min-width: 400;
+    border-right:1px black solid;
+    border-right:5px black solid;
+    overflow: scroll;
+}
+#maed_header_div{
+    background-color:rgb(226, 125, 78);
+    text-align: center;
+    margin: 0px;
+}
+#maed_header2_div{
+    background-color:rgb(184, 224, 240);
+    float: left;
+    padding: 0px;
+    width: 100%;
+}
+#maed_title_div{
+    padding-left: 10px;
+    background: inherit;
+    font-size: 20px;
+    float: left;
+}
+#maed_time_div{
+    background: inherit;
+    float: right;
+    text-align: right;
+}
+#maed_content_div{
+    padding: 5px;
+    height: 310px;
+    overflow: scroll;
+}
+#mead_bottom_div{
+    background-color:rgb(184, 224, 240);
+    float: left;
+    padding: 0px 10px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+#maed_name_div{
+    margin: 0px;
+    background: inherit;
+    float: left;
+}
+#mead_sender_div{
+    float: right;
+}
+/*留言清單區（右下）*/
+#mail_div{
+    float: right;
+    width: 40%;
+    height: 100%;
+    min-height: 300;
+    min-width: 400;
+}
+#mail_header_div{
+    background-color:rgb(226, 125, 78);
+    text-align: center;
+    margin: 0px;
+    
+}
+#mail_t_div{
+    height: 362px;
+    overflow: scroll;
+}
+.mail_div_table1_tr1_th{
+    font-size: 20px;
+    min-width: 100px;
+}

@@ -1,0 +1,14 @@
+
+body{
+    padding: 30px;
+    font-family:標楷體, cursive, fantasy;
+}
+
+#form_content{
+    height: 300px;
+}
+#form_reciver{
+}
+#form_reciver_inf{
+    float: right;
+}

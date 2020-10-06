@@ -1,0 +1,28 @@
+﻿# Please open in Visual Studio Code
+# 回传结果为 1 表示你的输入导致系统发生错误。
+# Request                       # Response            
+[RENAME]<string>                [RENAME]{-1|True|False}                         # 重新命名，输入您想要的名字。
+[CREATE]<string>                [CREATE]<int>                                   # 建立象棋房间，输入您想要的房间名字，回传房间编号。
+[JOIN]<int>                     [JOIN]{-1|True|False}                           # 加入房间，输入房间编号。
+cccccc                        [LEAVE]{-1|True|False}                          # 离开房间。
+[MOVE]<int>,<int>,<int>,<int>   [MOVE]{-1|True|False}                           # 移动，输入srcX,srcY,destX,destY。
+[DETAIL]<int>                   [DETAIL]{-1|<string>,<string>,<int>,<string>}   # 房间资讯，输入房间编号。
+[BOARD]<int>                    [BOARD]{-1|90 numbers with comma}               # 棋盘资讯，输入房间编号。
+                                [CONNECT]<string>                               # 连线资讯，输出中文资讯。
+                                [TURN]YourTurn                                  # 你的回合。
+                                [MSG]<string>                                   # 房间讯息。
+                                [WIN]{RED|BLUE}                                 # 胜利讯息。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
